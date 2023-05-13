@@ -7,7 +7,6 @@ This repository contains the reference code for the paper "Self-supervised Repre
 0. [Installation](#installation)
 0. [Preparation](#Preparation)
 0. [Training](#train)
-0. [Testing](#test)
 
 ## Installation
 pip install -r requirements.txt 
