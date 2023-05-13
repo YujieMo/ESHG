@@ -1,6 +1,6 @@
 # Self-supervised Representation Learning for Heterogeneous Graph
 
-This repository contains the reference code for the paper Self-supervised Representation Learning for Heterogeneous Graph
+This repository contains the reference code for the paper "Self-supervised Representation Learning for Heterogeneous Graph".
 
 ## Contents
 
