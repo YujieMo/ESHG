@@ -9,8 +9,8 @@ This repository contains the reference code for the paper "Self-supervised Repre
 0. [Training](#train)
 
 ## Installation
-pip install -r requirements.txt 
-unzip the datasets
+* pip install -r requirements.txt 
+* unzip the datasets
 
 ## Preparation
 
