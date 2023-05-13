@@ -10,6 +10,7 @@ This repository contains the reference code for the paper "Self-supervised Repre
 
 ## Installation
 pip install -r requirements.txt 
+unzip the datasets
 
 ## Preparation
 
