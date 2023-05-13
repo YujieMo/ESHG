@@ -1,0 +1,52 @@
+DEFAULT: &DEFAULT
+  black_list: [1,2,0]
+  num_gpus_total: 4
+  num_gpus_to_use: 1
+  heads: 8
+  edge_sampling_ratio: 0.9
+  seed: 0
+  verbose: 2
+  save_model: False
+  save_plot: False
+  val_interval: 1
+
+SHG: &SHG
+  model_name: SHG
+  <<: *DEFAULT
+
+SHG-dblp-Node: &SHG-dblp-Node
+  <<: *SHG
+  nb_epochs: 600
+  cfg: [32, 128]
+  alpha: 1
+  lambdintra: [0.0001, 0.005, 0.0005]
+  beta: 0.001
+
+SHG-acm-Node: &SHG-acm-Node
+  <<: *SHG
+  nb_epochs: 1000
+  cfg: [32, 64]
+  lambdintra: [0.005, 0.005]
+  alpha: 1
+  beta: 0.005
+
+SHG-imdb-Node: &SHG-imdb-Node
+  <<: *SHG
+  nb_epochs: 7000
+  cfg: [32, 64]
+  lambdintra: [0.01, 0.005]
+  alpha: 1
+  beta: 0.001
+
+
+SHG-amazon-Node: &SHG-amazon-Node
+  <<: *SHG
+  sc: 5
+  nb_epochs: 600
+  cfg: [32, 256]
+  lambdintra: [0.0005, 0.05, 0.0005]
+  alpha: 0.1
+  beta: 0.0005
+
+
+
