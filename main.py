@@ -18,7 +18,7 @@ def get_args(model_name, dataset, custom_key="", yaml_path=None) -> argparse.Nam
     parser.add_argument('--sparse', type=bool, default=True, help='sparse adjacency matrix')
     parser.add_argument('--sparse_adj', type=bool, default=False, help='sparse adjacency matrix')
     parser.add_argument('--iterater', type=int, default=10, help='iterater')
-    parser.add_argument('--use_pretrain', type=bool, default=False, help='use_pretrain')
+    parser.add_argument('--use_pretrain', type=bool, default=True, help='use_pretrain')
     parser.add_argument('--nb_epochs', type=int, default=1000, help='the number of epochs')
     parser.add_argument('--lr', type=float, default=0.0005, help='learning rate')
     parser.add_argument('--feature_drop', type=int, default=0.1, help='dropout of features')
