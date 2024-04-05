@@ -1,6 +1,6 @@
-# Self-supervised Representation Learning for Heterogeneous Graph
+# Efficient Self-Supervised Heterogeneous Graph Representation Learning with Reconstruction 
 
-This repository contains the reference code for the paper "Self-supervised Representation Learning for Heterogeneous Graph".
+This repository contains the reference code for the paper "Efficient Self-Supervised Heterogeneous Graph Representation Learning with Reconstruction".
 
 ## Contents
 
